@@ -46,7 +46,7 @@ class ViewController: UIViewController {
             if lettersFound.contains(letterEntered) {
                 displayWord.append(letterEntered)
             } else {
-                displayWord.append("_")
+                displayWord.append("_ ")
             }
         }
         secretWordLabel.text = displayWord
